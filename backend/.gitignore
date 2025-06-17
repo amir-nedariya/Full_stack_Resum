@@ -1,18 +1,22 @@
-# Node modules
+# 🔧 Node modules should never be committed
 node_modules/
 
-# Logs
-logs
+# 📄 Log files
+logs/
 *.log
 npm-debug.log*
 
-# Environment variables
+# 🔐 Environment variables (MONGO_URI, API keys, etc.)
 .env
 
-# Vercel-specific
-.vercel
+# 🚀 Vercel deployment config (generated automatically)
+.vercel/
 
-# IDEs and OS
+# 💻 OS/System-specific files (Mac/Linux)
 .DS_Store
+
+# 🧠 VSCode editor config
 .vscode/
+
+# 💾 Swap files (from editors like vim)
 *.swp
